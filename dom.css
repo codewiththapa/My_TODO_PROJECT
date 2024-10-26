@@ -12,7 +12,7 @@ body{
 
 a{
   text-decoration: none;
-  color: white;
+  color:red;
 }
 
 .header{
@@ -22,7 +22,7 @@ a{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: rgb(204, 32, 32);
 }
 
 .container{
@@ -97,3 +97,45 @@ font-weight: 400;
   color: white;
   font-weight: bold;
   }
+
+.section-singup{
+  margin: 5rem auto;
+  text-align: center;
+  background: rgb(240,240,240);
+  border-radius: 10px;
+  padding: 1rem ;
+}
+
+.singup-form{
+  max-width: 800px;
+  width: 95%;
+  text-align: left;
+  margin: auto;
+ }
+
+.singup-form label{
+  display: block;
+}
+
+.singup-form input{
+  display: block;
+  width: 100%;
+  padding: 0.5rem ;
+}
+
+.form-group{
+  margin-top: 1rem ;
+}
+
+.singup-form textarea{
+  width: 100% ;
+}
+
+.singup-btn{
+  background: rgb(44,55,63);
+  color: white;
+  padding: 1rem 2rem ;
+  display: block ;
+  margin: auto;
+  margin-top: 1rem;
+}
